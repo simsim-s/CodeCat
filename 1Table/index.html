@@ -1,0 +1,94 @@
+<DOCTYPE html!>
+    <html lang= "en">
+      <head>
+        <meta charset= "UTF-8">
+        <title>Additional Selectors</title>
+        <link href="styles.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@400;700&family=Sanchez&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+        </head>
+        <body>
+          <header>
+            <h1>CSS3 Additional Selectors</h1>
+          </header>
+          <main>
+            <table>
+              <caption>Table</caption>
+              <tr>
+                <td colspan="3" >Pseudo-classes</td>
+                </tr>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Selector</th>
+                    <th scope="col">Meaning</th>
+                    </tr>
+                    <tr>
+                      <td class="numbers">1.</td>
+                      <td class="middle">a:link{}</td>
+                      <td>styles for non-visited links</td>
+                      </tr>
+                      <tr>
+                        <td class="numbers">2.</td>
+                        <td class="middle">a:visited{}</td>
+                        <td>styles for viseted links</td>
+                        </tr>
+                        <tr>
+                          <td class="numbers">3.</td>
+                          <td class="middle" >:hover{}</td>
+                          <td>an element which is hovered with a mouse</td>
+                          </tr>
+                          <tr>
+                            <td class="numbers">4.</td>
+                            <td class="middle">:focus{}</td>
+                            <td>an element which a user is ready to interact with</td>
+                            </tr>
+                            <tr>
+                              <td class="numbers">5.</td>
+                              <td class="middle">:active{}</td>
+                              <td>an element which is activated by a user</td>
+                              </tr>
+                                <tr>
+                                  <td colspan=3>Attribute Selectors</td>
+                                  </tr>
+                                  <tr>
+                                    <th></th>
+                                    <th>Selector</th>
+                                    <th>Meaning</th>
+                                    </tr>
+                                    <tr>
+                                  <td class="numbers">1.</td>
+                                <td class="middle">[]</td>
+                                      <td>any element with a certain name attribute, for example -class- attribute: <span>p[class]</span> </td>
+                                      </tr>
+                                      <tr>
+                                <td class="numbers">2.</td>
+                                <td class="middle">[=]</td>
+                                <td>any element with a certain value of attribute, e.g.:<span>p[class="dog"]</span></td>
+                                      </tr>
+                                      <tr>
+                                <td class="numbers">3.</td>
+                                <td class="middle">[~=]</td>
+                                  <td>an element whose class is a list of space-seperated words, one of which is "dog":<span> p[class~="dog"]</span></td>
+                                      </tr>
+                                      <tr>
+                                  <td class="numbers">4.</td>
+                                  <td class="middle">[^=]</td>
+                                  <td>an element with an attribute whose value begins with, for example "d":<span>p[attr^="d"]</span></td>
+                                      </tr>
+                                      <tr>
+                                  <td class="numbers">5.</td>
+                                  <td class="middle">[*=]</td>
+                                      <td>an element whose attribute contains, for example letters "do": <span>p[attr*="do"]</span></td>
+                                      </tr>
+                                      <tr>
+                                    <td class="numbers">6.</td>
+                                  <td class="middle">[$=]</td>
+                                      <td>any element with an attribute whose value ends with a letter "g":<span>p[attr$="g"]</span></td>                                    
+  </tr>
+  </table>
+  
+                      </main>
+                      </body>
+                      </html>
+  
+        </body>
